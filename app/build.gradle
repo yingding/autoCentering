@@ -32,21 +32,6 @@ android {
 }
 
 dependencies {
-
-    /* minimum watch face lib */
-    implementation "androidx.core:core-ktx:$ktx_core_version"
-    // Material components: Theme.MaterialComponents.DayNight
-    implementation "com.google.android.material:material:$material_version"
-
-    // WatchFace Service, Renderer.CanvasRenderer2
-    implementation "androidx.wear.watchface:watchface:$wear_watchface_version"
-    // Complication Style and ComplicationDrawable
-    implementation "androidx.wear.watchface:watchface-complications-rendering:$wear_watchface_version"
-
-    /* extended version */
-    // WatchFace Style Editor
-    implementation "androidx.wear.watchface:watchface-editor:$wear_watchface_version"
-
     /* Compose Dependencies */
     // General Compose dependencies
     // it also added dependencies of activity-ktx, activity-compose
@@ -60,5 +45,4 @@ dependencies {
     implementation "androidx.wear.compose:compose-material:$wear_compose_version"
     // Foundation is additive, so you can use the mobile version in your Wear OS app.
     implementation "androidx.wear.compose:compose-foundation:$wear_compose_version"
-
 }

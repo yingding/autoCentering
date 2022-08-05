@@ -30,14 +30,14 @@ class WatchFaceConfigActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             /* working and show full screen image directly */
-            val stateParams = Pair(0, 0)
-            val autoCenteringParams = Pair(0, 0)
+//            val stateParams = Pair(0, 0)
+//            val autoCenteringParams = Pair(0, 0)
             /* working and show full screen image with 40 px offset directly */
 //            val stateParams = Pair(0, 40)
 //            val autoCenteringParams = Pair(0, 40)
             /* not working and show black screen, at first, with scrolling the image appears */
-//            val stateParams = Pair(1, 0)
-//            val autoCenteringParams = Pair(1, 0)
+            val stateParams = Pair(1, 0)
+            val autoCenteringParams = Pair(1, 0)
             /* not working, conflict of settings */
 //            val stateParams = Pair(1, 0)
 //            val autoCenteringParams = Pair(2, 0)
