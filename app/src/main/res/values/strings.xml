@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoCentering Conflict Demo</string>
+
+    <!-- Values for WatchFaceConfigActivity -->
+    <!-- Title for config activity for watch face (settings). -->
+    <string name="title_activity_watch_face_config">Configuration</string>
+
+    <!-- Content Descriptions -->
+    <string name="activity_config_screenshot_content_description">Screenshot of Watch Face</string>
+
+</resources>
