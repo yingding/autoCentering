@@ -28,7 +28,21 @@ With the params
       val autoCenteringParams = Pair(0, 0)
 ```
 The demo app works as expected, will show a full screen image and a text right at app start.
-https://user-images.githubusercontent.com/6877923/123006036-64e2e780-d3b7-11eb-922e-018994b32da5.mov
+https://github.com/yingding/autoCentering/blob/main/video/showImageAtStart.mov
+
+With the params
+```kotlin
+   val stateParams = Pair(1, 0)
+   val autoCenteringParams = Pair(1, 0)
+```
+or
+```kotlin
+   val stateParams = Pair(1, 0)
+   val autoCenteringParams = Pair(2, 0)
+```
+The demo app doesn't work as exprected, will show a black screen at app start.
+After the manually interaction through scrolling, the full screen image is then shown.
+https://github.com/yingding/autoCentering/blob/main/video/NotShowingImageAtStart.mov
 
 
 
